@@ -19,8 +19,9 @@ const risultato= document.getElementById(`risultato`)
 let biciLeggera=bici[0]
 
 for(let i=0; i<bici.length; i++){
+  let elemento=bici[i]
     if(bici[i].peso<biciLeggera.peso){
-        biciLeggera=bici[i]
+        biciLeggera=elemento
     }
 }
 
